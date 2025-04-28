@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="ZlxaygMrwC_V4yadAAbP">
-    <mxGraphModel dx="2525" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2978" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -400,10 +400,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-30" value="TiedMapEntry.getValue&lt;div&gt;.(map.get())&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1080" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="18xKpXTRygfrPaaRR-s6-32" value="TiedMapEntry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="18xKpXTRygfrPaaRR-s6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-32" target="18xKpXTRygfrPaaRR-s6-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-32" value="TiedMapEntry&lt;div&gt;.hashCode&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1300" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-900" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-39" value="TiedMapEntry有参构造器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-660" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-41" value="LazyMap.decorate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-43" target="18xKpXTRygfrPaaRR-s6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-43" value="HashCode.hash.(key.hashCode)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1350" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-45" value="map.put()&lt;div&gt;key=tiedMapEnry&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="1145" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-47" value="HashCode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
