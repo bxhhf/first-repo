@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="ZlxaygMrwC_V4yadAAbP">
-    <mxGraphModel dx="2978" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3959" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,13 +182,13 @@
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-72" value="HashMap.readObject&lt;div&gt;.putVal(hash(key))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-76" value="CC1_TransformedMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-76" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CC1_Transfor&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;medMap&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="-440" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-77" value="CC1_LazyMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-77" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CC1_LazyMap&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-445" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-78" value="CC6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;CC6&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-450" y="1040" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-80" target="uxkE2W5Ma2Xc4yEUWn1J-81" edge="1">
@@ -223,7 +223,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-92" value="将 TiedMapEntry对象&lt;div&gt;put进HashMap实例化对象的key&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="1150" width="120" height="70" as="geometry" />
+          <mxGeometry y="1160" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-94" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1140" width="240" height="100" as="geometry" />
@@ -299,147 +299,255 @@
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tgrbXY2v0hO3O6ztJCuA-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160.00000000000023" y="1530" as="targetPoint" />
+            <mxPoint x="1279.9999999999998" y="1871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tgrbXY2v0hO3O6ztJCuA-2" value="TemplatesImpl&lt;div&gt;.n&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ewTransformer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.getTransletInstance&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="1711" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tgrbXY2v0hO3O6ztJCuA-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20.000000000000227" y="1530" as="targetPoint" />
+            <mxPoint x="1419.9999999999998" y="1871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tgrbXY2v0hO3O6ztJCuA-3" value="defineTransletClasses" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="1420" y="1711" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-2" value="_class[].newInstance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="1530" width="180" height="60" as="geometry" />
+          <mxGeometry x="1260" y="1871" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-7" value="从字节码中加载类给_class[]赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1450" width="200" height="30" as="geometry" />
+          <mxGeometry x="1490" y="1801" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="1370" width="30" height="30" as="geometry" />
+          <mxGeometry x="1320" y="1711" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-9" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="1440" width="30" height="30" as="geometry" />
+          <mxGeometry x="1230" y="1781" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="tgrbXY2v0hO3O6ztJCuA-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-310" y="1610" as="sourcePoint" />
-            <mxPoint x="-250" y="1470" as="targetPoint" />
+            <mxPoint x="1130" y="1951" as="sourcePoint" />
+            <mxPoint x="1190" y="1811" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-250" y="1520" />
-              <mxPoint x="-340" y="1490" />
+              <mxPoint x="1190" y="1861" />
+              <mxPoint x="1100" y="1831" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-11" value="InvokerTansformer&lt;div&gt;.transform&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;调newTransformer方法&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="1090" y="1961" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-12" value="有参构造为protected,&lt;div&gt;_name,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_bytecodes&lt;/span&gt;&lt;div&gt;&lt;div&gt;_tfactory反射赋值&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="1230" width="140" height="70" as="geometry" />
+          <mxGeometry x="1230" y="1571" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.933;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-12" target="tgrbXY2v0hO3O6ztJCuA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-15" value="与CC1相连，ChainedTransformer&lt;div&gt;包装InvokerTransformer&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-445" y="1500" width="150" height="80" as="geometry" />
+          <mxGeometry x="995" y="1841" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-16" target="18xKpXTRygfrPaaRR-s6-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-16" value="LazyMap.get.(factory.transform)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="1620" width="140" height="60" as="geometry" />
+          <mxGeometry x="850" y="1961" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-18" target="18xKpXTRygfrPaaRR-s6-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-18" value="AnnotationInvoca&lt;div&gt;tionHandler&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.invoke&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(memberValues.get)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="1620" width="140" height="60" as="geometry" />
+          <mxGeometry x="620" y="1961" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-19" target="18xKpXTRygfrPaaRR-s6-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-19" value="AnnotationInvoc&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;a&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tionHandler.readObject&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.(memberValues.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;entrySet)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1060" y="1620" width="140" height="60" as="geometry" />
+          <mxGeometry x="380" y="1961" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-22" value="memberValues=&lt;div&gt;Proxy.newProxy&lt;/div&gt;&lt;div&gt;Instance()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-947" y="1460" width="120" height="80" as="geometry" />
+          <mxGeometry x="493" y="1801" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.85;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-22" target="18xKpXTRygfrPaaRR-s6-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-24" value="触发动态代理类&lt;div&gt;invoke方法&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="1610" width="110" height="40" as="geometry" />
+          <mxGeometry x="520" y="1951" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="tgrbXY2v0hO3O6ztJCuA-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-480" y="1270" as="sourcePoint" />
-            <mxPoint x="-430" y="1250" as="targetPoint" />
+            <mxPoint x="960" y="1611" as="sourcePoint" />
+            <mxPoint x="1010" y="1591" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-400" y="1380" />
-              <mxPoint x="-350" y="1250" />
+              <mxPoint x="1040" y="1721" />
+              <mxPoint x="1090" y="1591" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-26" value="与CC6相连,同理&lt;div&gt;ChainedTransformer包装Invoker&lt;/div&gt;&lt;div&gt;Transformer&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="1345" width="140" height="85" as="geometry" />
+          <mxGeometry x="900" y="1686" width="140" height="85" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-27" value="InvokerTransformer.&lt;div&gt;transform()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="1561" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-28" target="18xKpXTRygfrPaaRR-s6-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-28" value="LazyMap.get.(factory.transform)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="1220" width="130" height="60" as="geometry" />
+          <mxGeometry x="600" y="1561" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-30" target="18xKpXTRygfrPaaRR-s6-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-30" value="TiedMapEntry.getValue&lt;div&gt;.(map.get())&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="1561" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-32" target="18xKpXTRygfrPaaRR-s6-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-32" value="TiedMapEntry&lt;div&gt;.hashCode&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1300" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="1561" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-900" y="1250" as="targetPoint" />
+            <mxPoint x="540" y="1591" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-39" value="TiedMapEntry有参构造器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-970" y="1130" width="120" height="80" as="geometry" />
+          <mxGeometry x="470" y="1500" width="120" height="51" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-660" y="1250" as="targetPoint" />
+            <mxPoint x="780" y="1591" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-41" value="LazyMap.decorate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="1130" width="120" height="80" as="geometry" />
+          <mxGeometry x="720" y="1500" width="120" height="51" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-43" target="18xKpXTRygfrPaaRR-s6-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-43" value="HashCode.hash.(key.hashCode)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1510" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="1561" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1350" y="1250" as="targetPoint" />
+            <mxPoint x="90" y="1591" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-45" value="map.put()&lt;div&gt;key=tiedMapEnry&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1410" y="1145" width="120" height="55" as="geometry" />
+          <mxGeometry x="30" y="1486" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="18xKpXTRygfrPaaRR-s6-47" value="HashCode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1710" y="1220" width="120" height="60" as="geometry" />
+        <mxCell id="18xKpXTRygfrPaaRR-s6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-47" target="18xKpXTRygfrPaaRR-s6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-47" value="HashCode.readObject&lt;div&gt;.putVal(hash(key))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1561" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-530" y="1320" as="sourcePoint" />
+            <mxPoint x="1500" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-50" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;CC3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-51" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;InvokerTransformer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1385" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-55" target="18xKpXTRygfrPaaRR-s6-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="777.4999999999998" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-55" value="TemplatesImpl&lt;div&gt;.n&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ewTransformer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.getTransletInstance&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="917.4999999999998" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-57" value="defineTransletClasses" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="917.5" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-58" value="_class[].newInstance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757.5" y="2560" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-59" value="从字节码中加载类给_class[]赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="987.5" y="2490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-60" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="817.5" y="2400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-61" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="2470" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-62" value="有参构造为protected,&lt;div&gt;_name,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_bytecodes&lt;/span&gt;&lt;div&gt;&lt;div&gt;_tfactory反射赋值&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="2260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.933;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-62" target="18xKpXTRygfrPaaRR-s6-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-64" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="2120" as="sourcePoint" />
+            <mxPoint x="1580" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-66" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CC3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="373" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-71" value="InstantiateTransformer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="2175" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-72" target="18xKpXTRygfrPaaRR-s6-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-72" value="TrAXFilter.constructor&lt;div&gt;.newTransformer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327.5" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-74" value="TrAXFilter不可序列化&lt;div&gt;，用反射&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="2300" width="140" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-75" target="18xKpXTRygfrPaaRR-s6-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-75" value="InstantiateTransformer&lt;div&gt;.transform(input)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160.75" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-78" target="18xKpXTRygfrPaaRR-s6-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-78" value="LazyMap.get&lt;div&gt;.transform&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-37.5" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-80" value="CC1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2400" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-81" target="18xKpXTRygfrPaaRR-s6-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-81" value="AnnotationInvocatio&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;n&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler.invoke&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-83" value="TiedMapEntry&lt;div&gt;.getValue&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="2510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.291;entryY=0.954;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18xKpXTRygfrPaaRR-s6-83" target="18xKpXTRygfrPaaRR-s6-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18xKpXTRygfrPaaRR-s6-85" value="CC6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="2510" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
