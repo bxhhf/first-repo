@@ -1,175 +1,175 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="ZlxaygMrwC_V4yadAAbP">
-    <mxGraphModel dx="2956" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2648" dy="2277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-1" target="uxkE2W5Ma2Xc4yEUWn1J-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="65" as="targetPoint" />
+            <mxPoint x="227.5" y="-425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-1" value="AnnotationInvocationHandler&lt;div&gt;.readObject(setValue(xxx))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="260" width="160" height="60" as="geometry" />
+          <mxGeometry x="-22.5" y="-230" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="290" as="targetPoint" />
+            <mxPoint x="397.5" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-8" value="Map.Entry.setValue&lt;div&gt;(parent.checkSetValue(xxx))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="260" width="150" height="60" as="geometry" />
+          <mxGeometry x="197.5" y="-230" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="290" as="targetPoint" />
+            <mxPoint x="637.5" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-10" value="TransformedMap.checkSetValue&lt;div&gt;(transform(xxx))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="413.5" y="260" width="186.5" height="60" as="geometry" />
+          <mxGeometry x="401" y="-230" width="186.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="290" as="targetPoint" />
+            <mxPoint x="357.5" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-11" value="由于遍历反射调用AnnotatonInvocationHandler的&lt;div&gt;构造器传的参数transformedMap的&lt;/div&gt;&lt;div&gt;键值对&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(由entryset获得),所以它就有&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;一个&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;属性parent指向&lt;/span&gt;&lt;div&gt;transformedMap&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="90" width="240" height="100" as="geometry" />
+          <mxGeometry x="227.5" y="-400" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-16" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ChainedTransformer.transform(xxx)&lt;/span&gt;&lt;div&gt;循环调数组中的transform&lt;/div&gt;&lt;div&gt;上一个的结果是下一个的transform(),括号中的参数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="250" width="200" height="60" as="geometry" />
+          <mxGeometry x="637.5" y="-240" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="290" as="targetPoint" />
-            <mxPoint x="620" y="160" as="sourcePoint" />
+            <mxPoint x="617.5" y="-200" as="targetPoint" />
+            <mxPoint x="607.5" y="-330" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="620" y="210" />
-              <mxPoint x="630" y="210" />
-              <mxPoint x="630" y="280" />
+              <mxPoint x="607.5" y="-280" />
+              <mxPoint x="617.5" y="-280" />
+              <mxPoint x="617.5" y="-210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-17" value="TransformedMap.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;decorate&lt;/span&gt;&lt;div&gt;传参ChainedTransformer&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="80" width="160" height="100" as="geometry" />
+          <mxGeometry x="527.5" y="-410" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-19" value="setValue(xxx)&lt;div&gt;xxx不可控&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="440" width="110" height="90" as="geometry" />
+          <mxGeometry x="57.5" y="-50" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="123" y="410" as="sourcePoint" />
-            <mxPoint x="128" y="300" as="targetPoint" />
+            <mxPoint x="110.5" y="-80" as="sourcePoint" />
+            <mxPoint x="115.5" y="-190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="123" y="440" />
-              <mxPoint x="123" y="340" />
-              <mxPoint x="128" y="340" />
+              <mxPoint x="110.5" y="-50" />
+              <mxPoint x="110.5" y="-150" />
+              <mxPoint x="115.5" y="-150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="235" width="60" height="100" as="geometry" />
+          <mxGeometry x="837.5" y="-255" width="60" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-27" value="ConstantTransformer&lt;div&gt;.transform(xxx)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="200" width="130" height="50" as="geometry" />
+          <mxGeometry x="887.5" y="-290" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="490" as="sourcePoint" />
-            <mxPoint x="740" y="330" as="targetPoint" />
+            <mxPoint x="527.5" as="sourcePoint" />
+            <mxPoint x="727.5" y="-160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="480" y="530" />
-              <mxPoint x="370" y="370" />
-              <mxPoint x="580" y="430" />
+              <mxPoint x="467.5" y="40" />
+              <mxPoint x="357.5" y="-120" />
+              <mxPoint x="567.5" y="-60" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-32" target="uxkE2W5Ma2Xc4yEUWn1J-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="835" y="420" />
-              <mxPoint x="1150" y="420" />
-              <mxPoint x="1150" y="225" />
+              <mxPoint x="822.5" y="-70" />
+              <mxPoint x="1137.5" y="-70" />
+              <mxPoint x="1137.5" y="-265" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-32" value="数组中第一个调transform&lt;div&gt;方法的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;就要不受到transform&lt;/span&gt;&lt;div&gt;传入参数xxx的影响&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="350" width="200" height="130" as="geometry" />
+          <mxGeometry x="647.5" y="-140" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-33" value="框架流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="-152.5" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;关于同名函数调用传目标类对象的连接&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="-152.5" y="-380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-35" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;方法/(括号)中的参数传递&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="435" width="120" height="60" as="geometry" />
+          <mxGeometry x="-152.5" y="-55" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-37" value="ConstantTransformer的&lt;div&gt;transform方法就与传&lt;/div&gt;&lt;div&gt;入的xx无关&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="120" width="180" height="90" as="geometry" />
+          <mxGeometry x="1007.5" y="-370" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-42" value="InvokerTransformer.&lt;div&gt;transform()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="887.5" y="-180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="290" as="targetPoint" />
-            <mxPoint x="616.62" y="879.9973190348526" as="sourcePoint" />
+            <mxPoint x="617.5" y="-200" as="targetPoint" />
+            <mxPoint x="604.12" y="389.9973190348526" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-49" value="LazyMap.get&lt;div&gt;(transform(xxx))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="850" width="173.25" height="60" as="geometry" />
+          <mxGeometry x="437.5" y="360" width="173.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-52" value="后面一样的" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="585" width="120" height="80" as="geometry" />
+          <mxGeometry x="657.5" y="95" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-53" value="AnnotationInvocationHandler&lt;div&gt;.invoke(membervalues.get)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="850" width="180" height="60" as="geometry" />
+          <mxGeometry x="197.5" y="360" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-53" target="uxkE2W5Ma2Xc4yEUWn1J-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-55" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="880" as="targetPoint" />
+            <mxPoint x="407.5" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-55" value="反射构造器里面传参lazymap" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="680" width="120" height="80" as="geometry" />
+          <mxGeometry x="347.5" y="190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-57" target="uxkE2W5Ma2Xc4yEUWn1J-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-57" value="AnnotationInvocationHandler&lt;div&gt;.readObject(Map.entrySet)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="850" width="160" height="60" as="geometry" />
+          <mxGeometry x="-52.5" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-59" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="879.9999999999998" as="targetPoint" />
+            <mxPoint x="167.5" y="389.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-59" value="在AnnotationInvocationHandler&lt;div&gt;中有需求：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;自己的invoke方法&lt;/span&gt;&lt;/div&gt;&lt;div&gt;调目标类lazymap方法，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;而恰好它的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;有参构造器接收的是map类型的，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;所以将Proxy创建的代理类强转成Map类传入构造器，readObject方法里就会调代理类的方法，触发&lt;/div&gt;&lt;div&gt;动态代理类的invoke方法&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="620" width="290" height="140" as="geometry" />
+          <mxGeometry x="-22.5" y="130" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-63" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.018;entryY=0.695;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="uxkE2W5Ma2Xc4yEUWn1J-59" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-110" y="700" as="sourcePoint" />
-            <mxPoint x="-100" y="710" as="targetPoint" />
+            <mxPoint x="-122.5" y="210" as="sourcePoint" />
+            <mxPoint x="-112.5" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-110" y="700" />
-              <mxPoint x="-70" y="720" />
-              <mxPoint x="-40" y="700" />
+              <mxPoint x="-122.5" y="210" />
+              <mxPoint x="-82.5" y="230" />
+              <mxPoint x="-52.5" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-66" value="LazyMap.decorate&lt;div&gt;传参ChainedTransformer&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="675" width="130" height="90" as="geometry" />
+          <mxGeometry x="557.5" y="185" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-69" value="Proxy创建的代理类也不一定是要传入AnnotationInvocationHandler中，也可是其他可以其他类" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="640" width="190" height="109" as="geometry" />
+          <mxGeometry x="-312.5" y="150" width="190" height="109" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-70" value="Runtime不能反序&lt;div&gt;列化，结合Class，反射&lt;/div&gt;&lt;div&gt;解决&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="100" width="160" height="90" as="geometry" />
+          <mxGeometry x="707.5" y="-390" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.809;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uxkE2W5Ma2Xc4yEUWn1J-70" target="uxkE2W5Ma2Xc4yEUWn1J-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -183,10 +183,10 @@
           <mxGeometry x="-280" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-76" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CC1_Transfor&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;medMap&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="255" width="120" height="60" as="geometry" />
+          <mxGeometry x="-632.5" y="-235" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-77" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CC1_LazyMap&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-640" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="-652.5" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uxkE2W5Ma2Xc4yEUWn1J-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;CC6&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-630" y="1060" width="130" height="60" as="geometry" />
@@ -384,7 +384,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="18xKpXTRygfrPaaRR-s6-26" value="与CC6相连,同理&lt;div&gt;ChainedTransformer包装Invoker&lt;/div&gt;&lt;div&gt;Transformer&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="18xKpXTRygfrPaaRR-s6-26" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CC6&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="1686" width="140" height="85" as="geometry" />
         </mxCell>
         <mxCell id="18xKpXTRygfrPaaRR-s6-27" value="InvokerTransformer.&lt;div&gt;transform()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -549,48 +549,48 @@
         <mxCell id="18xKpXTRygfrPaaRR-s6-85" value="CC6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-105" y="2510" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-523.75" y="2670" as="sourcePoint" />
             <mxPoint x="1696.25" y="2670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;CC4&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;CC4&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-620" y="2730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-3">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eKuc8PHRma9amvSy-cAo-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="2430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-3" value="TransformingComparator&lt;div&gt;compare(arg1,arg2)&lt;/div&gt;&lt;div&gt;.(transformer&lt;/div&gt;&lt;div&gt;.transform(arg1))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-3" value="TransformingComparator&lt;div&gt;compare(arg1,arg2)&lt;/div&gt;&lt;div&gt;.(transformer&lt;/div&gt;&lt;div&gt;.transform(arg1))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="2820" width="150" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-5" target="eKuc8PHRma9amvSy-cAo-6">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eKuc8PHRma9amvSy-cAo-5" target="eKuc8PHRma9amvSy-cAo-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-5" value="PriorityQueue.&lt;div&gt;readObject&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-5" value="PriorityQueue.&lt;div&gt;readObject&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-440" y="2820" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-6" value="PriorityQueue&lt;div&gt;.compare(arg1,arg2)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-6" value="PriorityQueue&lt;div&gt;.compare(arg1,arg2)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-225" y="2820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-8" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-8" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-290" y="2818" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-6" target="eKuc8PHRma9amvSy-cAo-3">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eKuc8PHRma9amvSy-cAo-6" target="eKuc8PHRma9amvSy-cAo-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="3610" as="sourcePoint" />
             <mxPoint x="250" y="2680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-12" value="CC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-12" value="CC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="360" y="2730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-13">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eKuc8PHRma9amvSy-cAo-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="2430" as="targetPoint" />
             <Array as="points">
@@ -599,46 +599,61 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-13" value="InvokerTransformer&lt;div&gt;.transform(arg1)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-13" value="InvokerTransformer&lt;div&gt;.transform(arg1)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="2830" width="120" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-15" value="TransformingComparator&lt;div&gt;.compare(arg1,arg2)&lt;/div&gt;&lt;div&gt;.transform(arg1)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-15" value="TransformingComparator&lt;div&gt;.compare(arg1,arg2)&lt;/div&gt;&lt;div&gt;.transform(arg1)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="2830" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-15" target="eKuc8PHRma9amvSy-cAo-13">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eKuc8PHRma9amvSy-cAo-15" target="eKuc8PHRma9amvSy-cAo-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-19" target="eKuc8PHRma9amvSy-cAo-15">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eKuc8PHRma9amvSy-cAo-19" target="eKuc8PHRma9amvSy-cAo-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-19" value="PriorityQueue&lt;div&gt;.compare(arg1,arg2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-19" value="PriorityQueue&lt;div&gt;.compare(arg1,arg2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="2830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-22" target="eKuc8PHRma9amvSy-cAo-19">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eKuc8PHRma9amvSy-cAo-22" target="eKuc8PHRma9amvSy-cAo-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-22" value="PriorityQueue.&lt;div&gt;readObject&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-22" value="PriorityQueue.&lt;div&gt;readObject&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="2830" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-23" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-23" value="......" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="516.62" y="2818" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-27" value="直接调newTransformer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-27" value="直接调newTransformer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="2740" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-28" value="注意这里transform的参数是add的第一个值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-28" value="注意这里transform的参数是add的第一个值" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="817.5" y="2970" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.61;entryY=1.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-28" target="eKuc8PHRma9amvSy-cAo-15">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.61;entryY=1.059;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eKuc8PHRma9amvSy-cAo-28" target="eKuc8PHRma9amvSy-cAo-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-30">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eKuc8PHRma9amvSy-cAo-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1100" y="2890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKuc8PHRma9amvSy-cAo-30" value="arg1可控，所以可以不用数组Transformer[]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eKuc8PHRma9amvSy-cAo-30" value="arg1可控，所以可以不用数组Transformer[]" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="2970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xAqfysQxaxc4c3l5SmFJ-1" value="TiedMapEntry.toString" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xAqfysQxaxc4c3l5SmFJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xAqfysQxaxc4c3l5SmFJ-1" target="uxkE2W5Ma2Xc4yEUWn1J-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAqfysQxaxc4c3l5SmFJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xAqfysQxaxc4c3l5SmFJ-3" target="xAqfysQxaxc4c3l5SmFJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAqfysQxaxc4c3l5SmFJ-3" value="BadAttributeValue&lt;div&gt;Exception.readObject&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xAqfysQxaxc4c3l5SmFJ-5" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CC5&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
