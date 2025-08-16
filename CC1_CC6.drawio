@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="ZlxaygMrwC_V4yadAAbP">
-    <mxGraphModel dx="3379" dy="2963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2273" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -572,7 +572,7 @@
         <mxCell id="eKuc8PHRma9amvSy-cAo-5" value="PriorityQueue.&lt;div&gt;readObject&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-440" y="2820" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="adN93xnqtX5vShJOLsmK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eKuc8PHRma9amvSy-cAo-6" target="adN93xnqtX5vShJOLsmK-4">
+        <mxCell id="adN93xnqtX5vShJOLsmK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eKuc8PHRma9amvSy-cAo-6" target="adN93xnqtX5vShJOLsmK-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-165" y="3060" />
@@ -663,13 +663,13 @@
         <mxCell id="xAqfysQxaxc4c3l5SmFJ-5" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CC5&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-620" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="adN93xnqtX5vShJOLsmK-2" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="adN93xnqtX5vShJOLsmK-2" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-652.5" y="3230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="adN93xnqtX5vShJOLsmK-4" value="BeanComparator&lt;div&gt;.compare.&lt;/div&gt;&lt;div&gt;PropertyUtils.&lt;/div&gt;&lt;div&gt;getProperty()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="adN93xnqtX5vShJOLsmK-4" value="BeanComparator&lt;div&gt;.compare.&lt;/div&gt;&lt;div&gt;PropertyUtils.&lt;/div&gt;&lt;div&gt;getProperty()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="3220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="adN93xnqtX5vShJOLsmK-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="adN93xnqtX5vShJOLsmK-4">
+        <mxCell id="adN93xnqtX5vShJOLsmK-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="adN93xnqtX5vShJOLsmK-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="3250" as="sourcePoint" />
             <mxPoint x="790" y="2400" as="targetPoint" />
@@ -684,6 +684,9 @@
               <mxPoint x="1280" y="2180" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="K4mmItDUPOyorGXK7gsl-1" value="就是直接遍历transformedMap的entry(是Map.entry引用类型)调setvalue就可以调。/实现类MapEntyr的setValue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-590" width="240" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
