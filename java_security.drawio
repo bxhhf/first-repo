@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="M-s0z8mtGy-1C7ZLIsmC">
-    <mxGraphModel dx="2116" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1896" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,47 +151,47 @@
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvHaSSJQ598Zzu-Z0c1-4" target="pcvHaSSJQ598Zzu-Z0c1-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-400" y="1020" as="targetPoint" />
+            <mxPoint x="-100" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-4" value="parse反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="-320" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvHaSSJQ598Zzu-Z0c1-6" target="pcvHaSSJQ598Zzu-Z0c1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-6" value="检测到含有@type，获取java解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="-113" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvHaSSJQ598Zzu-Z0c1-7" target="pcvHaSSJQ598Zzu-Z0c1-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-7" value="获取时调用build方法，该方法中有三个重要的for循环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvHaSSJQ598Zzu-Z0c1-9" target="pcvHaSSJQ598Zzu-Z0c1-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-9" value="for循环将满足条件的getter,setter，字段，放到list中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-11" value="解析器获取完之后，调用deserialize方法，构造器及字段对应的setter及一些getter方法被调用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-13" value="parseObject反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="1120" width="120" height="60" as="geometry" />
+          <mxGeometry x="-510" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvHaSSJQ598Zzu-Z0c1-16" target="pcvHaSSJQ598Zzu-Z0c1-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-16" value="toJSON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="-320" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="1020" width="70" height="250" as="geometry" />
+          <mxGeometry x="-390" y="1020" width="70" height="250" as="geometry" />
         </mxCell>
         <mxCell id="pcvHaSSJQ598Zzu-Z0c1-20" value="所有的getter方法被调用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="-120" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
